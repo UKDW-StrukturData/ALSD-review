@@ -1,4 +1,4 @@
-from soal1 import hitung_nilai_akhir, grade_nilai
+from soal1_71251229 import hitung_nilai_akhir, grade_nilai
 
 nama = input("Masukkan nama mahasiswa: ")
 nilai_tugas = float(input("Masukkan nilai tugas: "))
