@@ -1,6 +1,4 @@
 from soal1 import *
-
-
 def abc(nilai):
     if nilai >= 85:
         print (f"Nilai {nilai} -> Grade A")

@@ -1,3 +1,4 @@
+
 def tes(*data):
     nama,nilai_tugas,nilai_uts,nilai_uas = data
 
@@ -6,4 +7,3 @@ def tes(*data):
     print(f"| {'Nama':11} :", nama, type(nama))
     print(f"| {'Nilai Akhir':12}: {nilai_akhir:.2f}", type(nilai_akhir))
     return nilai_akhir
-
