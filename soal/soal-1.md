@@ -14,7 +14,7 @@ Buatlah program Python yang:
 2. Menghitung `nilai_akhir` dengan bobot:
    - Tugas 30%, UTS 30%, UAS 40%
 3. Menampilkan nama, nilai_akhir, dan **tipe data** dari 2 variabel diatas.
-HINT: 
+HINT:
 '''
    print(f"| {'Nama':11} :", nama, type(nama))
    print(f"| {'Nilai Akhir':12}: {nilai_akhir:.2f}", type(nilai_akhir))

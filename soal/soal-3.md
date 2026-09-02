@@ -7,8 +7,8 @@ Melatih penggunaan perulangan (`for`, `while`) dan pembuatan fungsi (`def`) di P
 Buatlah program Python yang:
 
 1. Membuat fungsi `hitung_rata2(list_nilai)` yang:
-   - Menerima parameter berupa `list` berisi nilai-nilai mahasiswa.
-   - Menggunakan perulangan `for` untuk mencetak setiap nilai dalam list.
+Menerima parameter berupa `list` berisi nilai-nilai mahasiswa.
+   - Menggunaka   - n perulangan `for` untuk mencetak setiap nilai dalam list.
    - Mengembalikan (`return`) nilai rata-rata dari semua nilai dalam list.
 2. Memanggil fungsi tersebut dengan data contoh, misalnya:
    ```python
