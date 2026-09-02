@@ -3,14 +3,14 @@ from soal1 import hitung
 nilai_akhir = hitung("Okky", 100, 100, 100)
 
 if nilai_akhir >= 85:
-    print("Grade: A")
+    print(f"Nilai {nilai_akhir} -> Grade: A")
 elif nilai_akhir >= 70:
-    print("Grade: B")
+    print(f"Nilai {nilai_akhir} -> Grade: B")
 elif nilai_akhir >= 60:
-    print("Grade: C")
+    print(f"Nilai {nilai_akhir} -> Grade: C")
 elif nilai_akhir >= 50:
-    print("Grade: D")
+    print(f"Nilai {nilai_akhir} -> Grade: D")
 else:
-    print("Grade: E")
+    print(f"Nilai {nilai_akhir} -> Grade: E")
 
 
