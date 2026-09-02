@@ -1,10 +1,16 @@
-def hitung_rata(list_nilai):
-    total = 0
-    for i in range(len(list_nilai)):
-        total += list_nilai[i]
-        nilai_mhs = total / len(list_nilai)
-        print(f"Nilai ke-{i+1}: {list_nilai[i]}")
-    print(f"{'Rata-rata':12}: {nilai_mhs:.2f}")
-    return nilai_mhs
 
-rata_rata = hitung_rata([81, 80, 90, 100, 70, 60, 50, 40, 30, 20])
+def hitung(list_nilai):
+    panjang = len(list_nilai)
+    total = 0
+    for i in list_nilai:
+        print(f"Nilai ke-{list_nilai.index(i)+1}: {i}")
+        if i >= 0 and i <= 100:
+            total += i
+        elif i == -1:
+            break
+        else:
+            panjang -= 1
+            continue
+    total /= panjang
+    print(f"Rata-rata: {total:.2f}")
+hitung([81, 80, 90, 100, 70, 60, 50, 40, 30, 20])
