@@ -8,3 +8,4 @@ def hitung_rata2(list_nilai):
 
 nilai_mhs = [80, 75, 90, 65, 88]
 print(f"Rata-rata: {hitung_rata2(nilai_mhs)}")
+#ketinggalan
