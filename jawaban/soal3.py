@@ -13,6 +13,7 @@ def hitung_rata2(list_nilai):
 
     akhir = (total)/(len(list_nilai))
     print(f"Rata-rata: {akhir}")
-    
-hitung_rata2([80, 75, 90, 101, -1])   
+
+nilai_mhs = [80, 75, 90, 101, -1]
+hitung_rata2(nilai_mhs)   
         
